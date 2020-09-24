@@ -1,0 +1,70 @@
+.postal{
+    width: 1000px;
+    height: 630px;
+    padding-left: 150px;
+    font-family: 'Ranchers', cursive;
+    font-size: xx-large;
+    padding: 10px;
+    border: 16px solid transparent;
+    border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
+    #58a 0, #58a 3em, transparent 0, transparent 4em);
+    max-width: 150em;
+    margin-left: 150px;
+    background-color: white;
+}
+
+.firstPart{
+    display: flex;
+    
+}
+
+.logo{
+    content: url(http://assets.breatheco.de/apis/img/icon/4geeks.png);
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+
+}
+
+.A{
+    height: auto;
+    width: 700px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.secondPart{
+    display: flex;
+}
+.input-flex {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.input-flex > input {
+    margin-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    border-bottom-style: ridge ;
+    font-size: xx-large;
+
+}
+
+.thirdPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+
+}
+button{
+    height: 70px;
+    width: auto;
+}
+button:hover{
+    background-color: green;
+}
